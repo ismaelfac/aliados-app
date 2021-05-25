@@ -1,4 +1,22 @@
 @extends('layouts.app')
 @section('content')
-    <h2>Pagos</h2>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">{{ __('Page su factura') }}</div>
+
+                <div class="card-body">
+                    @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
+                    @endif
+
+                    Pagos
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection
