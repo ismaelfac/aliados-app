@@ -7,7 +7,7 @@
         </a>
       </li>
       <li>
-        <a href="./icons.html">
+        <a href="payments">
           <i class="now-ui-icons education_atom"></i>
           <p>Pagar</p>
         </a>
