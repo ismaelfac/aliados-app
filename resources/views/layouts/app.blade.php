@@ -43,7 +43,11 @@
       <div class="panel-header">
       </div>
       <div class="content">
-        @yield('content')
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            @yield('content')
+          </div>
+        </div>
       </div>
       <footer class="footer">
         <div class=" container-fluid ">
@@ -86,9 +90,7 @@
   <script src="../assets/js/plugins/chartjs.min.js"></script>
   <!--  Notifications Plugin    -->
   <script src="../assets/js/plugins/bootstrap-notify.js"></script>
-  <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="../assets/js/now-ui-dashboard.min.js?v=1.5.0" type="text/javascript"></script><!-- Now Ui Dashboard DEMO methods, don't include it in your project! -->
-  <script src="../assets/demo/demo.js"></script>
+  
   
 </body>
 
