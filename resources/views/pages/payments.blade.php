@@ -12,8 +12,8 @@
                     </label>
                 </div><span>Pendientes por Cobro</span>
             </h5>
-            </div>
-            <div class="card-body ">
+        </div>
+         <div class="card-body ">
             <div class="table-full-width table-responsive">
                 <table class="table table-sm table-hover">
                     <thead>
@@ -48,9 +48,9 @@
                             <td>2021-05-20</td>
                             <td>$ 1.235.000.00</td>
                             <td class="td-actions text-right">
-                                <button type="button" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
+                                <a type="button" href="{{ url('details_payments', 1) }}" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
                                     <i class="now-ui-icons ui-2_settings-90"></i>
-                                </button>
+                                </a>
                                 <button type="button" rel="tooltip" title="" class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Remove">
                                     <i class="now-ui-icons ui-1_simple-remove"></i>
                                 </button>

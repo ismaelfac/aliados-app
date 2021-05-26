@@ -19,6 +19,9 @@ Route::get('/', function () {
 Route::get('payments', function () {
     return view('pages.payments');
 });
+Route::get('details_payments/{id}', function () {
+    return view('pages.details_payments');
+});
 
 
 Auth::routes();
