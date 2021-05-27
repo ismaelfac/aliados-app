@@ -1,21 +1,15 @@
 <div class="sidebar-wrapper" id="sidebar-wrapper">
     <ul class="nav">
       <li class="active ">
-        <a href="./dashboard.html">
+        <a href="{{ url('/') }}">
           <i class="now-ui-icons design_app"></i>
           <p>Portal de Pagos</p>
         </a>
       </li>
       <li>
-        <a href="payments">
+        <a href="{{ url('/payments') }}">
           <i class="now-ui-icons education_atom"></i>
           <p>Pagar</p>
-        </a>
-      </li>
-      <li>
-        <a href="./map.html">
-          <i class="now-ui-icons location_map-big"></i>
-          <p>Recuperar Contraseña</p>
         </a>
       </li>
       <li>
