@@ -165,11 +165,11 @@
                                 <tr>
                                     <th scope="col">#</th>
                                     <th scope="col">Estado</th>
-                                    <th scope="col">No Factura</th>
-                                    <th scope="col">NIC</th>
-                                    <th scope="col">Periodo</th>
-                                    <th scope="col">Vence</th>
-                                    <th scope="col">Valor Total</th>
+                                    <th scope="col">No convenio</th>
+                                    <th scope="col">Cuotas</th>
+                                    <th scope="col">Pronto Pago</th>
+                                    <th scope="col">Cuota Actual</th>
+                                    <th scope="col">Valor Total</th>                                    
                                     <th scope="col">Opciones</th>
                                 </tr>
                             </thead>
@@ -184,15 +184,15 @@
                                         </div>
                                     </td>
                                     <td>
-                                    <a type="button" href="{{ url('/to_pay') }}">
-                                        <img width="70px" height="50px" src="https://colegiofervan.edu.co/wp-content/uploads/2020/02/BotonPSE.png" alt="" srcset="" />
-                                    </a>
+                                        <a type="button" href="{{ url('to_pay',1) }}" rel="tooltip" title="" class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Remove">
+                                            <i class="now-ui-icons ui-1_simple-remove"></i>
+                                        </a>
                                     </td>
-                                    <td>254620</td>
-                                    <td>72288959</td>
-                                    <td>2021/05</td>
-                                    <td>2021-05-20</td>
-                                    <td>$ 1.235.000.00</td>
+                                    <td>503021</td>
+                                    <td>3</td>
+                                    <td>2021/05/30</td>
+                                    <td>$ 3.030.000 </td>
+                                    <td>$ 4.180.711</td>
                                     <td class="td-actions text-right">
                                         <a type="button" href="{{ url('details_payments',1) }}" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
                                             <i class="now-ui-icons ui-2_settings-90"></i>
@@ -212,19 +212,19 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <a type="button" href="{{ url('to_pay',1) }}" rel="tooltip" title="" class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Remove">
-                                            <i class="now-ui-icons ui-1_simple-remove"></i>
+                                        <button type="button" rel="tooltip" title="" class="btn btn-success btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Add">
+                                            <i class="now-ui-icons ui-1_check"></i>
+                                        </button>
+                                    </td>
+                                    <td>503021</td>
+                                    <td>4</td>
+                                    <td>2021/04/30</td>
+                                    <td>$ 3.030.000 </td>
+                                    <td>$ 4.180.711</td>
+                                    <td class="td-actions text-right">
+                                        <a type="button" href="{{ url('details_payments',1) }}" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
+                                            <i class="now-ui-icons ui-2_settings-90"></i>
                                         </a>
-                                    </td>
-                                    <td>254620</td>
-                                    <td>72288959</td>
-                                    <td>2021/05</td>
-                                    <td>2021-05-20</td>
-                                    <td>$ 1.235.000.00</td>
-                                    <td class="td-actions text-right">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
-                                            <i class="now-ui-icons ui-2_settings-90"></i>
-                                        </button>
                                         <button type="button" rel="tooltip" title="" class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Remove">
                                             <i class="now-ui-icons ui-1_simple-remove"></i>
                                         </button>
@@ -244,15 +244,15 @@
                                             <i class="now-ui-icons ui-1_check"></i>
                                         </button>
                                     </td>
-                                    <td>254620</td>
-                                    <td>72288959</td>
-                                    <td>2021/05</td>
-                                    <td>2021-05-20</td>
-                                    <td>$ 1.235.000.00</td>
+                                    <td>503021</td>
+                                    <td>5</td>
+                                    <td>2021/03/30</td>
+                                    <td>$ 3.030.000 </td>
+                                    <td>$ 4.180.711</td>
                                     <td class="td-actions text-right">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
+                                        <a type="button" href="{{ url('details_payments',1) }}" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
                                             <i class="now-ui-icons ui-2_settings-90"></i>
-                                        </button>
+                                        </a>
                                         <button type="button" rel="tooltip" title="" class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Remove">
                                             <i class="now-ui-icons ui-1_simple-remove"></i>
                                         </button>
@@ -272,15 +272,15 @@
                                             <i class="now-ui-icons ui-1_check"></i>
                                         </button>
                                     </td>
-                                    <td>254620</td>
-                                    <td>72288959</td>
-                                    <td>2021/05</td>
-                                    <td>2021-05-20</td>
-                                    <td>$ 1.235.000.00</td>
+                                    <td>503021</td>
+                                    <td>6</td>
+                                    <td>2021/02/30</td>
+                                    <td>$ 3.030.000 </td>
+                                    <td>$ 4.180.711</td>
                                     <td class="td-actions text-right">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
+                                        <a type="button" href="{{ url('details_payments',1) }}" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
                                             <i class="now-ui-icons ui-2_settings-90"></i>
-                                        </button>
+                                        </a>
                                         <button type="button" rel="tooltip" title="" class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Remove">
                                             <i class="now-ui-icons ui-1_simple-remove"></i>
                                         </button>
