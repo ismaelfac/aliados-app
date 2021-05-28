@@ -22,7 +22,7 @@ Route::get('payments', function () {
 Route::get('details_payments/{id}', function () {
     return view('pages.details_payments');
 });
-Route::get('to_pay/{id}', function () {
+Route::get('to_pay', function () {
     return view('pages.to_pay');
 });
 
