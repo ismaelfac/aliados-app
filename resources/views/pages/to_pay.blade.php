@@ -3,65 +3,56 @@
 <div class="col-md-8 ml-auto mr-auto">
     <div class="card card-upgrade">
       <div class="card-header text-center">
-        <h4 class="card-title">Now UI Dashboard PRO</h3>
-          <p class="card-category">Are you looking for more components? Please check our Premium Version of Now UI Dashboard PRO.</p>
+        <h4 class="card-title">Factura No 254620</h3>
+          <p class="card-category">A continuacion podra ver el detalle de su factura, si tiene alguna duda o no esta de acuerdo con el valor de su factura...</p>
+          <a href="{{ url('/') }}" class="btn btn-danger btn-block btn-sm">Reportelo ahora</a>
       </div>
       <div class="card-body">
+        <h6>Arrendatario: Ismael Enrique Lastre Alvarez</h6>
+        <h6>Dirección del inmueble: Cll 84B # 37-69</h6>
         <div class="table-responsive table-upgrade">
           <table class="table">
             <thead>
               <th></th>
-              <th class="text-center">Free</th>
-              <th class="text-center">PRO</th>
+              <th class="text-center">Cantidad</th>
+              <th class="text-center">Total</th>
             </thead>
             <tbody>
               <tr>
-                <td>Components</td>
-                <td class="text-center">16</td>
-                <td class="text-center">160</td>
+                <td>Cannon de Arriendo</td>
+                <td class="text-center">1</td>
+                <td class="text-center">$1.200.000</td>
               </tr>
               <tr>
-                <td>Plugins</td>
-                <td class="text-center">4</td>
-                <td class="text-center">13</td>
+                <td>Administracion</td>
+                <td class="text-center">1</td>
+                <td class="text-center">$450.000</td>
               </tr>
               <tr>
-                <td>Example Pages</td>
-                <td class="text-center">7</td>
-                <td class="text-center">27</td>
+                <td><b>Subtotal</b></td>
+                <td class="text-center"></td>
+                <td class="text-center">$1.650.000</td>
               </tr>
               <tr>
-                <td>Login, Register, Pricing, Lock Pages</td>
-                <td class="text-center"><i class="now-ui-icons ui-1_simple-remove text-danger"></i></td>
-                <td class="text-center"><i class="now-ui-icons ui-1_check text-success"></i></td>
+                <td>Otros Cobros</td>
+                <td class="text-center"></td>
+                <td class="text-center"></td>
               </tr>
               <tr>
-                <td>DataTables, VectorMap, SweetAlert, Wizard, jQueryValidation, FullCalendar etc...</td>
-                <td class="text-center"><i class="now-ui-icons ui-1_simple-remove text-danger"></i></td>
-                <td class="text-center"><i class="now-ui-icons ui-1_check text-success"></i></td>
+                <td>Gastos Obras Civiles</td>
+                <td class="text-center"></td>
+                <td class="text-center">$452.000</td>
               </tr>
               <tr>
-                <td>Mini Sidebar</td>
-                <td class="text-center"><i class="now-ui-icons ui-1_simple-remove text-danger"></i></td>
-                <td class="text-center"><i class="now-ui-icons ui-1_check text-success"></i></td>
-              </tr>
-              <tr>
-                <td>Premium Support</td>
-                <td class="text-center"><i class="now-ui-icons ui-1_simple-remove text-danger"></i></td>
-                <td class="text-center"><i class="now-ui-icons ui-1_check text-success"></i></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td class="text-center">Free</td>
-                <td class="text-center">Just $49</td>
+                <td><b>Total</b></td>
+                <td class="text-center"></td>
+                <td class="text-center">$2.102.000</td>
               </tr>
               <tr>
                 <td class="text-center"></td>
+                <td class="text-center"></td>
                 <td class="text-center">
-                  <a href="#" class="btn btn-round btn-default disabled">Current Version</a>
-                </td>
-                <td class="text-center">
-                  <a target="_blank" href="https://www.creative-tim.com/product/now-ui-dashboard-pro?ref=nud-free-upgrade-live" class="btn btn-round btn-primary">Upgrade to PRO</a>
+                  <a type="button" target="_blank" href="#"><img width="100px" height="80px" src="https://colegiofervan.edu.co/wp-content/uploads/2020/02/BotonPSE.png" alt="" srcset="" /></a>
                 </td>
               </tr>
             </tbody>

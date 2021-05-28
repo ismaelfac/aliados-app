@@ -52,9 +52,10 @@
                                         </div>
                                     </td>
                                     <td>
-                                    <a type="button" href="{{ url('to_pay',1) }}" rel="tooltip" title="" class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Remove">
-                                        <i class="now-ui-icons ui-1_simple-remove"></i>
-                                    </a></td>
+                                    <a type="button" href="{{ url('to_pay',1) }}">
+                                        <img width="70px" height="50px" src="https://colegiofervan.edu.co/wp-content/uploads/2020/02/BotonPSE.png" alt="" srcset="" />
+                                    </a>
+                                    </td>
                                     <td>254620</td>
                                     <td>72288959</td>
                                     <td>2021/05</td>
@@ -79,9 +80,9 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <button type="button" rel="tooltip" title="" class="btn btn-success btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Add">
-                                            <i class="now-ui-icons ui-1_check"></i>
-                                        </button>
+                                        <a type="button" href="{{ url('to_pay',1) }}" rel="tooltip" title="" class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Remove">
+                                            <i class="now-ui-icons ui-1_simple-remove"></i>
+                                        </a>
                                     </td>
                                     <td>254620</td>
                                     <td>72288959</td>
