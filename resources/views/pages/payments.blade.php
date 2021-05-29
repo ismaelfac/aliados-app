@@ -169,6 +169,7 @@
                                     <th scope="col">Cuotas</th>
                                     <th scope="col">Pronto Pago</th>
                                     <th scope="col">Cuota Actual</th>
+                                    <th scope="col">Fecha de Pago</th>
                                     <th scope="col">Valor Total</th>                                    
                                     <th scope="col">Opciones</th>
                                 </tr>

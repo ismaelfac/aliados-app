@@ -106,6 +106,20 @@
                   <td class="text-center"></td>
                   <td class="text-center">$0</td>
                 </tr>
+                  <tr>
+                  <td><b>Subtotal</b></td>
+                  <td class="text-center"></td>
+                  <td class="text-center"><b>$0</b></td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table">
+              <thead>
+                <th></th>
+                <th class="text-center"></th>
+                <th class="text-center">Total</th>
+              </thead>
+              <tbody>
                 <tr>
                   <tr>
                     <td><b>Convenios de Pago</b></td>
@@ -113,10 +127,24 @@
                     <td class="text-center"></td>
                   </tr>
                   <tr>
-                    <td><b>Cuota 1</b></td>
-                    <td class="text-center"><a href="#" class="btn btn-round btn-danger">Estado de Cuentas</a></td>
+                    <td><b>Cuota 1/5</b></td>
+                    <td class="text-center"><a href="account_status" class="btn btn-round btn-danger">Mi Estado de Cuentas</a></td>
                     <td class="text-center">$3.030.000</td>
                   </tr>
+                  <tr>
+                  <td><b>Subtotal</b></td>
+                  <td class="text-center"></td>
+                  <td class="text-center"><b>$4.097.645</b></td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table">
+              <thead>
+                <th></th>
+                <th class="text-center"></th>
+                <th class="text-center">Total</th>
+              </thead>
+              <tbody>
                   <tr>
                   <td><b>Subtotal</b></td>
                   <td class="text-center"></td>
@@ -126,7 +154,7 @@
                   <td class="text-center"></td>
                   <td class="text-center"><a href="#" class="btn btn-round btn-danger">Imprimir Factura</a></td>
                   <td class="text-center">
-                    <a type="button" target="_blank" href="#"><img width="100px" height="80px" src="https://colegiofervan.edu.co/wp-content/uploads/2020/02/BotonPSE.png" alt="" srcset="" /></a>
+                    <a type="button" target="_blank" href="#" class="btn btn-outline-danger btn-sm">Debito Bancario<img width="50px" height="40px" src="https://colegiofervan.edu.co/wp-content/uploads/2020/02/BotonPSE.png" alt="" srcset="" /></a>
                   </td>
                 </tr>
               </tbody>

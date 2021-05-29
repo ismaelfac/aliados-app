@@ -25,6 +25,9 @@ Route::get('details_payments/{id}', function () {
 Route::get('to_pay', function () {
     return view('pages.to_pay');
 });
+Route::get('account_status', function () {
+    return view('pages.account_status');
+});
 
 
 Auth::routes();
