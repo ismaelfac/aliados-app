@@ -5,7 +5,6 @@
       <div class="card-header text-center">
         <h4 class="card-title">Factura No 254620</h3>
           <p class="card-category">A continuacion podra ver el detalle de su factura, si tiene alguna duda o no esta de acuerdo con el valor de su factura...</p>
-          <a href="{{ url('/') }}" class="btn btn-danger btn-sm">Reportelo ahora</a>
       </div>
       <div class="card-body">
         <div class="row">
@@ -30,12 +29,12 @@
                 </tr>
                 <tr>
                   <td>Canon de Arriendo Mes de Abril</td>
-                  <td class="text-center">1</td>
+                  <td class="text-center"></td>
                   <td class="text-center">$480.000</td>
                 </tr>   
                 <tr>
                   <td><b>Subtotal</b></td>
-                  <td class="text-center"></td>
+                  <td class="text-center"><a href="{{ url('/') }}" class="btn btn-danger btn-sm">Reportar inconformidad</a></td>
                   <td class="text-center">$480.000</td>
                 </tr>
               </tbody>
@@ -54,17 +53,17 @@
                 </tr>
                 <tr>
                   <td>Canon de Arriendo</td>
-                  <td class="text-center">1</td>
+                  <td class="text-center"></td>
                   <td class="text-center">$2.941.176</td>
                 </tr>
                 <tr>
-                  <td>IVA</td>
-                  <td class="text-center">19%</td>
+                  <td>IVA 19%</td>
+                  <td class="text-center"></td>
                   <td class="text-center">$558.823</td>
                 </tr>
                 <tr>
                   <td>Administracion</td>
-                  <td class="text-center">1</td>
+                  <td class="text-center"></td>
                   <td class="text-center">$730.000</td>
                 </tr>
                 <tr>
@@ -73,13 +72,13 @@
                   <td class="text-center">$0</td>
                 </tr>  
                 <tr>
-                  <td>RETE FUENTE</td>
-                  <td class="text-center">3.5%</td>
+                  <td>RETE FUENTE 3.5%</td>
+                  <td class="text-center"></td>
                   <td class="text-center">$102.942</td>
                 </tr>
                 <tr>
-                  <td>RETE ICA</td>
-                  <td class="text-center">1%</td>
+                  <td>RETE ICA 1%</td>
+                  <td class="text-center"></td>
                   <td class="text-center">$29.412</td>
                 </tr>
                 <tr>
@@ -89,8 +88,41 @@
                 </tr>                
                 <tr>
                   <td><b>Subtotal</b></td>
-                  <td class="text-center"></td>
+                  <td class="text-center"><a href="{{ url('/') }}" class="btn btn-danger btn-sm">Reportar inconformidad</a></td>
                   <td class="text-center">$1.650.000</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table">
+              <thead>
+                <th></th>
+                <th class="text-center"></th>
+                <th class="text-center">Total</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><b>Deduciones</b></td>
+                  <td class="text-center"></td>
+                  <td class="text-center"></td>
+                </tr>
+                <tr>
+                  <td>Convenios TripleAAA</td>
+                  <td class="text-center"></td>
+                  <td class="text-center">$2.941</td>
+                </tr>
+                <tr>
+                  <td>Convenios Aire</td>
+                  <td class="text-center"></td>
+                  <td class="text-center">$53.000</td>
+                </tr>
+                <tr>
+                  <td>Convenio Gases del Caribe</td>
+                  <td class="text-center"></td>
+                  <td class="text-center">$73.000</td>
+                </tr>
+                  <td><b>Subtotal</b></td>
+                  <td class="text-center"></td>
+                  <td class="text-center">$128.941</td>
                 </tr>
               </tbody>
             </table>
@@ -108,7 +140,7 @@
                 </tr>
                   <tr>
                   <td><b>Subtotal</b></td>
-                  <td class="text-center"></td>
+                  <td class="text-center"><a href="{{ url('/') }}" class="btn btn-danger btn-sm">Reportar inconformidad</a></td>
                   <td class="text-center"><b>$0</b></td>
                 </tr>
               </tbody>
@@ -133,7 +165,7 @@
                   </tr>
                   <tr>
                   <td><b>Subtotal</b></td>
-                  <td class="text-center"></td>
+                  <td class="text-center"><a href="{{ url('/') }}" class="btn btn-danger btn-sm">Reportar inconformidad</a></td>
                   <td class="text-center"><b>$4.097.645</b></td>
                 </tr>
               </tbody>
