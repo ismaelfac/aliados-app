@@ -8,7 +8,7 @@
     </div>
     <div class="card-body">
       <div class="row">
-        <div class="col-md-8"><h6>Arrendatario: Ismael Enrique Lastre Alvarez </h6></div>
+        <div class="col-md-8"><h6>Arrendatario: z </h6></div>
         <div class="col-md-4"><h6>Inmueble: 24</h6></div>
         <div class="col-md-12"><h6>Dirección del inmueble: Cll 84B # 37-69</h6></div>
       </div>
