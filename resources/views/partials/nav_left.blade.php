@@ -13,9 +13,9 @@
         </a>
       </li>
       <li>
-        <a href="./notifications.html">
+        <a href="{{ url('/wallet') }}">
           <i class="now-ui-icons ui-1_bell-53"></i>
-          <p>Consultar</p>
+          <p>Cartera</p>
         </a>
       </li>
       <li>
