@@ -28,7 +28,7 @@ class UserTableSeeder extends Seeder
         ]);
         $role->permissions()->sync([1, 2, 3, 4, 5, 10, 15, 24,25,26,27,29,30]);
         $role = Role::create([
-            'name' => 'Asesores',
+            'name' => 'Coordinadores',
             'guard_name' => 'Asignado a los asesores: <br> Permite: Crear, actualizar desactivar.',
         ]);
         $role->permissions()->sync([1, 2, 3, 4, 5]);
