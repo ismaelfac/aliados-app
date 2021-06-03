@@ -28,8 +28,12 @@ class UserTableSeeder extends Seeder
         ]);
         $role->permissions()->sync([1, 2, 3, 4, 5, 10, 15, 24,25,26,27,29,30]);
         $role = Role::create([
-            'name' => 'Coordinadores',
-            'guard_name' => 'Asignado a los asesores: <br> Permite: Crear, actualizar desactivar.',
+            'name' => 'Coordinador',
+            'guard_name' => 'Asignado a los Coordinadores: <br> Permite: Crear, actualizar desactivar.',
+        ]);
+        $role = Role::create([
+            'name' => 'Inquilinos',
+            'guard_name' => 'Asignado a los Inquilinos: <br> Permite: Crear, actualizar.',
         ]);
         $role->permissions()->sync([1, 2, 3, 4, 5]);
         $user = User::create([
@@ -40,19 +44,32 @@ class UserTableSeeder extends Seeder
         ]);
         $user->assignRole($role->id === 1); //update roles
         $user = User::create([
-            'name' => 'SINFOROSO GUMERSINDO',
-            'email' => 'director@mail.com',
+            'name' => 'VANESSA DE LAS SALAS',
+            'email' => 'vdelassalas@aliadosinmobiliariossa.com',
             'password' => bcrypt('123'),
             'is_active' => true,
         ]);
-        $user->assignRole($role->id === 2); //update roles
+        $user->assignRole($role->id === 3); //update roles
         $user = User::create([
-            'name' => 'EMPERATRIS BENAVIDEZ ',
-            'email' => 'asistentecomercial@mail.com',
+            'name' => 'SUAREZ RANGEL MARIA ',
+            'email' => 'suarez@mail.com',
             'password' => bcrypt('123'),
             'is_active' => true,
         ]);
-        $user->assignRole($role->id === 3); //update roles 3, 4 en usuario3
-
+        $user->assignRole($role->id === 4); //update roles 3, 4 en usuario3
+        $user = User::create([
+            'name' => 'RINCON MEDINA ARIANA ',
+            'email' => 'mail@mail.com',
+            'password' => bcrypt('123'),
+            'is_active' => true,
+        ]);
+        $user->assignRole($role->id === 4); //update roles 3, 4 en usuario3
+        $user = User::create([
+            'name' => 'ESTRUCTURACIONES Y ESTRATEGIAS ',
+            'email' => 'correo@mail.com',
+            'password' => bcrypt('123'),
+            'is_active' => true,
+        ]);
+        $user->assignRole($role->id === 4); //update roles 3, 4 en usuario3
     }
 }
