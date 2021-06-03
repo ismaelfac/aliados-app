@@ -36,40 +36,40 @@ class UserTableSeeder extends Seeder
             'guard_name' => 'Asignado a los Inquilinos: <br> Permite: Crear, actualizar.',
         ]);
         $role->permissions()->sync([1, 2, 3, 4, 5]);
-        $user = User::create([
+        $user1 = User::create([
             'name' => 'ISMAEL E. LASTRE ALVAREZ',
             'email' => 'ismaelfac@gmail.com',
             'password' => bcrypt('BrwQ12-123'),
             'is_active' => true,
         ]);
-        $user->assignRole($role->id === 1); //update roles
-        $user = User::create([
+        $user1->assignRole('Administrador'); //update roles
+        $user2 = User::create([
             'name' => 'VANESSA DE LAS SALAS',
             'email' => 'vdelassalas@aliadosinmobiliariossa.com',
             'password' => bcrypt('123'),
             'is_active' => true,
         ]);
-        $user->assignRole($role->id === 3); //update roles
-        $user = User::create([
+        $user2->assignRole('Auditor'); //update roles
+        $user3 = User::create([
             'name' => 'SUAREZ RANGEL MARIA ',
             'email' => 'suarez@mail.com',
             'password' => bcrypt('123'),
             'is_active' => true,
         ]);
-        $user->assignRole($role->id === 4); //update roles 3, 4 en usuario3
-        $user = User::create([
+        $user3->assignRole('Coordinador'); //update roles 3, 4 en usuario3
+        $user4 = User::create([
             'name' => 'RINCON MEDINA ARIANA ',
             'email' => 'mail@mail.com',
             'password' => bcrypt('123'),
             'is_active' => true,
         ]);
-        $user->assignRole($role->id === 4); //update roles 3, 4 en usuario3
-        $user = User::create([
+        $user4->assignRole('Coordinador'); //update roles 3, 4 en usuario3
+        $user5 = User::create([
             'name' => 'ESTRUCTURACIONES Y ESTRATEGIAS ',
             'email' => 'correo@mail.com',
             'password' => bcrypt('123'),
             'is_active' => true,
         ]);
-        $user->assignRole($role->id === 4); //update roles 3, 4 en usuario3
+        $user5->assignRole('Coordinador'); //update roles 3, 4 en usuario3
     }
 }

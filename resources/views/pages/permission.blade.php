@@ -3,7 +3,7 @@
 <div class="col-md-12 ml-auto mr-auto">
   <div class="card card-upgrade">
     <div class="card-header text-center">
-      <h4 class="card-title">Roles</h3>
+      <h4 class="card-title">Permisos de {{ $role->name }}</h3>
         <p class="card-category">A continuacion asigne roles a los usuarios del sistema</p>
     </div>
     <div class="card-body">
