@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Auth\{ RoleController };
+use App\Http\Controllers\Auth\{ PermissionController, RoleController };
 
 /*
 |--------------------------------------------------------------------------
@@ -36,4 +36,7 @@ Route::get('wallet', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::resource('roles', RoleController::class);
+Route::group(['middleware' => ['role:Administrador']], function () {
+    Route::resource('roles', RoleController::class);
+    Route::resource('permissions', PermissionController::class);
+});
